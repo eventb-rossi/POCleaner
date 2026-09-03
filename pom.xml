@@ -17,6 +17,9 @@
 
 		<!-- Eclipse release the Rodin platform is built against (Rodin 3.10). -->
 		<eclipse-p2-url>https://download.eclipse.org/eclipse/updates/4.38/</eclipse-p2-url>
+
+		<!-- Appended to the build qualifier; set by CI to the short commit. -->
+		<version-suffix/>
 	</properties>
 
 	<modules>
